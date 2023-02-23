@@ -22,11 +22,11 @@ public class BinSearch {
     public static void main(String[] args){
         Scanner sc = new Scanner(System.in);
 
-        System.out.print("¿ä¼Ú¼ö: ");
+        System.out.print("ìš”ì†Ÿìˆ˜: ");
         int num = sc.nextInt();
         int[] x = new int[num];
 
-       /* System.out.println("¿À¸§Â÷¼øÀ¸·Î ÀÔ·ÂÇÏ¼¼¿ä.");
+       /* System.out.println("ì˜¤ë¦„ì°¨ìˆœìœ¼ë¡œ ìž…ë ¥í•˜ì„¸ìš”.");
 
         System.out.print("x[0]: ");
         x[0] = sc.nextInt();
@@ -37,7 +37,7 @@ public class BinSearch {
                 x[i] = sc.nextInt();
             } while (x[i] < x[i - 1]);
         } */
-        System.out.println("¹è¿­ ÀÔ·ÂÇÏ¼¼¿ä");
+        System.out.println("ë°°ì—´ ìž…ë ¥í•˜ì„¸ìš”");
 
         for(int i = 0; i < num; i++){
             System.out.print("x[" + i + "]: ");
@@ -45,20 +45,20 @@ public class BinSearch {
         }
 
         Arrays.sort(x);
-        System.out.println("¿À¸§Â÷¼ø Á¤·ÄµÈ ¹è¿­");
+        System.out.println("ì˜¤ë¦„ì°¨ìˆœ ì •ë ¬ëœ ë°°ì—´");
         for(int i = 0; i < num; i++){
             System.out.print("x[" + i + "]: " + x[i]);
             System.out.println();
         }
 
-            System.out.print("°Ë»öÇÒ °ª: ");
+            System.out.print("ê²€ìƒ‰í•  ê°’: ");
             int ky = sc.nextInt();
 
             int idx = binSearch(x, num, ky);
 
             if(idx == -1)
-                System.out.println("±× °ªÀÇ ¿ä¼Ò°¡ ¾ø½À´Ï´Ù.");
+                System.out.println("ê·¸ ê°’ì˜ ìš”ì†Œê°€ ì—†ìŠµë‹ˆë‹¤.");
             else
-                System.out.println("±× °ªÀº x[" + idx + "]¿¡ ÀÖ½À´Ï´Ù.");
+                System.out.println("ê·¸ ê°’ì€ x[" + idx + "]ì— ìžˆìŠµë‹ˆë‹¤.");
         }
     }
