@@ -5,7 +5,7 @@
 * 오름차순으로 정렬된 정수의 리스트를 같은 크기의 두 부분 리스트로 나누고 필요한 부분에서만 탐색
 * 리스트의 중간 부분에 찾는 원소가 있는지 확인, 없으면 위쪽에 있는지 아래쪽에 있는지 판단하여 맨 앞부터 검색하거나 중간부터 검색
 <br></br>
-![ffff](https://user-images.githubusercontent.com/101400945/221161087-46c4b124-6c17-4e60-b9d5-291fca85ff32.jpg)
+<img src = "https://user-images.githubusercontent.com/101400945/221161087-46c4b124-6c17-4e60-b9d5-291fca85ff32.jpg" width="70%" height="70%">
 
 1. index 0과 10을 기준으로 2로 나눈 값 index 5를 살펴본다.
 2. index 5의 값이 찾으려는 39보다 작으므로 index 5 이하는 더 이상 살피지 않는다.
@@ -38,5 +38,6 @@
 
 <br></br>
 
-## :metal: 관련 문제
+## :metal: 관련 문제 && 관련 자료
 <a href="https://www.acmicpc.net/problem/1920" rel="nofollow">BOJ [NO.1920]</a></p>
+<a href="https://wodlszz.tistory.com/10">jaein's tstory</a></p>
