@@ -40,4 +40,4 @@
 
 ## :metal: 관련 문제 && 관련 자료
 <a href="https://www.acmicpc.net/problem/1920" rel="nofollow">BOJ [NO.1920]</a></p>
-<a href="https://wodlszz.tistory.com/10">jaein's tstory</a></p>
+<a href="https://wodlszz.tistory.com/10">jaein's tistory</a></p>
