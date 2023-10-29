@@ -1,5 +1,8 @@
-# :blue_book:&nbsp;Algorithm
+##  👍 Tistory를 통해 학습을 기록하고 있습니다.
 
-####  :point_up:&nbsp;&nbsp;&nbsp;'Do it! 자료구조와 함께 배우는 알고리즘 입문(자바편)'으로 학습 중 입니다.
-####  :v:&nbsp;&nbsp;&nbsp;BOJ를 이용하여 문제풀이를 진행하는 중 입니다.
-
+- <a href="https://wodlszz.tistory.com/9">선형 검색(Linear Search)</a></p>
+- <a href="https://wodlszz.tistory.com/10">이진 검색(Binary Search)</a></p>
+- <a href="https://wodlszz.tistory.com/13">버블 정렬(Bubble Sort)</a></p>
+- <a href="https://wodlszz.tistory.com/18">탐욕 알고리즘(Greedy Algorithm)</a></p>
+- <a href="https://wodlszz.tistory.com/19">힙 정렬(Heap Sort)</a></p>
+- <a href="https://wodlszz.tistory.com/20">구간 합(Prefix Sum)</a></p>
